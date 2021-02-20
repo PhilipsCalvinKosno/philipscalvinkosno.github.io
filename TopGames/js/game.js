@@ -12,17 +12,15 @@ function getImagemain(id) {
 
 
    <div class="col-lg-4">
-     <img src="${gambar.image1}" alt="" style="width:320px">
+     <img src="${gambar.image1}" alt="" style="width:430px ">
+   </div>
+
+   <div class="col-lg-4" >
+     <img src="${gambar.image2}" alt="" style="width:440px;">
    </div>
    <br><br>
-      <br><br>
-         <br><br>
-   <div class="col-lg-4" >
-     <img src="${gambar.image2}" alt="" style="width:320px;">
-   </div>
-   <br><br>
-   <div class="col-lg-4" >
-     <img src="${gambar.image3}" alt="" style="width:300px;">
+   <div class="col-lg-3" >
+     <img src="${gambar.image3}" alt="" style="width:440px;">
    </div>
 
 
@@ -32,7 +30,7 @@ function getImagemain(id) {
    <div class="card mb-4" style="max-width: 650px;">
      <div class="row g-0">
        <div class="col-md-4">
-         <img src="${gambar.game_logo}"style="width:170px;">
+         <img src="${gambar.game_logo}"style="width:200px; height:220px;">
        </div>
        <div class="col-md-7">
          <div class="card-body">
@@ -49,7 +47,8 @@ function getImagemain(id) {
    <div class="col">
 
    <div class="d-grid gap-2 col-6 mx-auto mantap">
-  <button class="btn btn-success" type="button">Download From Playstore</button>
+   <a href="https://play.google.com/store?hl=in&gl=US">
+  <button class="btn btn-success" type="button">Download From Playstore</button></a>
 
 </div>
 </div>
